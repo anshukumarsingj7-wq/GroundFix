@@ -1,0 +1,521 @@
+{
+  "departments": [
+    {
+      "id": "d1111111-1111-1111-1111-111111111111",
+      "name": "Road Infrastructure & Paving",
+      "description": "Handles asphalt repair, pothole filling, and road resurfacing"
+    },
+    {
+      "id": "d2222222-2222-2222-2222-222222222222",
+      "name": "Drainage & Stormwater Works",
+      "description": "Manages manhole covers, storm drains, and flood mitigation"
+    },
+    {
+      "id": "d3333333-3333-3333-3333-333333333333",
+      "name": "Traffic & Pedestrian Safety",
+      "description": "Maintains guard rails, speed breakers, dividers, and signs"
+    },
+    {
+      "id": "d4444444-4444-4444-4444-444444444444",
+      "name": "Emergency Hazard Response",
+      "description": "Rapid intervention for high-risk and road-blocking hazards"
+    }
+  ],
+  "complaints": [
+    {
+      "id": "715fa852-ed01-4f61-a82b-51194a78dee9",
+      "complaint_id": "POT-1009",
+      "hazard_type": "pothole",
+      "description": "hghgh",
+      "latitude": 13.084172238317635,
+      "longitude": 77.64098560004562,
+      "road_name": "Nikoo Homes Road",
+      "severity": "Medium",
+      "risk_score": 47,
+      "status": "Reported",
+      "image_url": "/uploads/1790590281661-ozk66bf.png",
+      "image_auth_status": "Manual Review",
+      "image_auth_score": 65,
+      "image_auth_reason": "Basic file integrity and format verified. External AI verification API is not configured; queued for Manual Review by field officer.",
+      "before_image_url": "/uploads/1790590281661-ozk66bf.png",
+      "after_image_url": null,
+      "confirmation_count": 0,
+      "created_at": "2026-09-28T10:11:21.668Z",
+      "updated_at": "2026-09-28T10:11:21.668Z"
+    },
+    {
+      "id": "34a35ff8-7a8f-480f-a400-57aa4598fd6d",
+      "complaint_id": "POT-1008",
+      "hazard_type": "pothole",
+      "description": "Deep road cavity near bus stop",
+      "latitude": 13.0358,
+      "longitude": 77.597,
+      "road_name": "Bellary Road Highway",
+      "severity": "Critical",
+      "risk_score": 100,
+      "status": "Reopened",
+      "image_url": null,
+      "image_auth_status": "Manual Review",
+      "image_auth_score": 65,
+      "image_auth_reason": "File integrity verified. Queued for field officer review.",
+      "before_image_url": null,
+      "after_image_url": null,
+      "confirmation_count": 1,
+      "created_at": "2026-09-28T09:58:02.810Z",
+      "updated_at": "2026-09-28T09:58:02.814Z"
+    },
+    {
+      "id": "c1111111-1111-1111-1111-111111111111",
+      "complaint_id": "POT-1001",
+      "hazard_type": "pothole",
+      "description": "Deep crater pothole in the middle lane right after the intersection. Waterlogged during rains.",
+      "latitude": 12.9716,
+      "longitude": 77.5946,
+      "road_name": "MG Road (near Trinity Junction)",
+      "severity": "Critical",
+      "risk_score": 94,
+      "status": "In Progress",
+      "image_url": "https://images.unsplash.com/photo-1515162816999-a0c47dc192f7?w=800&auto=format&fit=crop&q=80",
+      "image_auth_status": "Likely Authentic",
+      "image_auth_score": 92,
+      "image_auth_reason": "Valid camera EXIF sensor profile and natural depth variance verified",
+      "before_image_url": "https://images.unsplash.com/photo-1515162816999-a0c47dc192f7?w=800&auto=format&fit=crop&q=80",
+      "after_image_url": null,
+      "confirmation_count": 14,
+      "created_at": "2026-09-25T09:58:02.782Z",
+      "updated_at": "2026-09-28T05:58:02.783Z"
+    },
+    {
+      "id": "c2222222-2222-2222-2222-222222222222",
+      "complaint_id": "POT-1002",
+      "hazard_type": "open_manhole",
+      "description": "Uncovered storm drain manhole on the pedestrian walkway and bike lane edge. Very dangerous at night.",
+      "latitude": 12.9352,
+      "longitude": 77.6245,
+      "road_name": "Koramangala 80 Feet Road",
+      "severity": "Critical",
+      "risk_score": 91,
+      "status": "Assigned",
+      "image_url": "https://images.unsplash.com/photo-1541888946425-d0fbb186c5f7?w=800&auto=format&fit=crop&q=80",
+      "image_auth_status": "Likely Authentic",
+      "image_auth_score": 89,
+      "image_auth_reason": "Texture gradient consistent with authentic street photography",
+      "before_image_url": "https://images.unsplash.com/photo-1541888946425-d0fbb186c5f7?w=800&auto=format&fit=crop&q=80",
+      "after_image_url": null,
+      "confirmation_count": 9,
+      "created_at": "2026-09-26T09:58:02.783Z",
+      "updated_at": "2026-09-27T09:58:02.783Z"
+    },
+    {
+      "id": "c3333333-3333-3333-3333-333333333333",
+      "complaint_id": "POT-1003",
+      "hazard_type": "damaged_road",
+      "description": "Severe road depression and cracked asphalt spanning two lanes causing sudden braking.",
+      "latitude": 12.9784,
+      "longitude": 77.6408,
+      "road_name": "Indiranagar 100 Feet Road",
+      "severity": "High",
+      "risk_score": 78,
+      "status": "Verified",
+      "image_url": "https://images.unsplash.com/photo-1578328819058-b69f3a3b0f6b?w=800&auto=format&fit=crop&q=80",
+      "image_auth_status": "Likely Authentic",
+      "image_auth_score": 87,
+      "image_auth_reason": "Original image dimensions and compression matches device camera",
+      "before_image_url": null,
+      "after_image_url": null,
+      "confirmation_count": 6,
+      "created_at": "2026-09-27T09:58:02.783Z",
+      "updated_at": "2026-09-27T21:58:02.783Z"
+    },
+    {
+      "id": "c4444444-4444-4444-4444-444444444444",
+      "complaint_id": "POT-1004",
+      "hazard_type": "road_obstruction",
+      "description": "Fallen concrete barrier and construction debris partially blocking left lane.",
+      "latitude": 12.9912,
+      "longitude": 77.6874,
+      "road_name": "Whitefield Main Road",
+      "severity": "High",
+      "risk_score": 72,
+      "status": "Reported",
+      "image_url": "https://images.unsplash.com/photo-1584463699042-4e963c683794?w=800&auto=format&fit=crop&q=80",
+      "image_auth_status": "Likely Authentic",
+      "image_auth_score": 85,
+      "image_auth_reason": "Authentic citizen mobile submission",
+      "before_image_url": null,
+      "after_image_url": null,
+      "confirmation_count": 3,
+      "created_at": "2026-09-28T03:58:02.783Z",
+      "updated_at": "2026-09-28T03:58:02.783Z"
+    },
+    {
+      "id": "c5555555-5555-5555-5555-555555555555",
+      "complaint_id": "POT-1005",
+      "hazard_type": "broken_infrastructure",
+      "description": "Damaged storm grate with sharp bent metal edges sticking out.",
+      "latitude": 12.9279,
+      "longitude": 77.6271,
+      "road_name": "Outer Ring Road (near Bellandur flyover)",
+      "severity": "Medium",
+      "risk_score": 52,
+      "status": "Reported",
+      "image_url": "https://images.unsplash.com/photo-1590486803833-1c5dc8ddd4c8?w=800&auto=format&fit=crop&q=80",
+      "image_auth_status": "Manual Review",
+      "image_auth_score": 68,
+      "image_auth_reason": "Sub-optimal lighting, queued for manual officer review",
+      "before_image_url": null,
+      "after_image_url": null,
+      "confirmation_count": 2,
+      "created_at": "2026-09-27T23:58:02.783Z",
+      "updated_at": "2026-09-27T23:58:02.783Z"
+    },
+    {
+      "id": "c6666666-6666-6666-6666-666666666666",
+      "complaint_id": "POT-1006",
+      "hazard_type": "pothole",
+      "description": "Large pothole filled and hot-rolled with new asphalt overlay. Verified smooth surface.",
+      "latitude": 12.9698,
+      "longitude": 77.7499,
+      "road_name": "ITPL Main Road",
+      "severity": "High",
+      "risk_score": 30,
+      "status": "Resolved",
+      "image_url": "https://images.unsplash.com/photo-1515162816999-a0c47dc192f7?w=800&auto=format&fit=crop&q=80",
+      "image_auth_status": "Likely Authentic",
+      "image_auth_score": 95,
+      "image_auth_reason": "High confidence verification passed",
+      "before_image_url": "https://images.unsplash.com/photo-1515162816999-a0c47dc192f7?w=800&auto=format&fit=crop&q=80",
+      "after_image_url": "https://images.unsplash.com/photo-1621905251918-48416bd8575a?w=800&auto=format&fit=crop&q=80",
+      "confirmation_count": 8,
+      "created_at": "2026-09-23T09:58:02.783Z",
+      "updated_at": "2026-09-27T09:58:02.783Z"
+    },
+    {
+      "id": "c7777777-7777-7777-7777-777777777777",
+      "complaint_id": "POT-1007",
+      "hazard_type": "pothole",
+      "description": "Temporary gravel wash washed out by rain. Citizens reported road deteriorated again.",
+      "latitude": 12.9165,
+      "longitude": 77.6101,
+      "road_name": "Bannerghatta Road",
+      "severity": "High",
+      "risk_score": 84,
+      "status": "Reopened",
+      "image_url": "https://images.unsplash.com/photo-1578328819058-b69f3a3b0f6b?w=800&auto=format&fit=crop&q=80",
+      "image_auth_status": "Likely Authentic",
+      "image_auth_score": 90,
+      "image_auth_reason": "Citizen re-verification confirmed patch failed",
+      "before_image_url": "https://images.unsplash.com/photo-1578328819058-b69f3a3b0f6b?w=800&auto=format&fit=crop&q=80",
+      "after_image_url": null,
+      "confirmation_count": 11,
+      "created_at": "2026-09-22T09:58:02.783Z",
+      "updated_at": "2026-09-28T06:58:02.783Z"
+    }
+  ],
+  "status_history": [
+    {
+      "id": "96b3e5d6-e6a9-4efd-9e98-b1b795bbf215",
+      "complaint_id": "POT-1001",
+      "status": "Reported",
+      "note": "Report filed by citizen with geo-tagged photo",
+      "created_at": "2026-09-25T09:58:02.783Z"
+    },
+    {
+      "id": "8d02bec7-4146-4493-a6df-eed5c5f7f07a",
+      "complaint_id": "POT-1001",
+      "status": "Verified",
+      "note": "Field officer verified crater depth (>15cm) on major transit artery",
+      "created_at": "2026-09-26T09:58:02.783Z"
+    },
+    {
+      "id": "33898a87-e802-4037-915e-76f55413ab6c",
+      "complaint_id": "POT-1001",
+      "status": "Assigned",
+      "note": "Assigned to Road Infrastructure & Paving rapid team",
+      "created_at": "2026-09-27T09:58:02.783Z"
+    },
+    {
+      "id": "9ef0d7d8-2ee8-4ebd-8280-c2e4e573f3db",
+      "complaint_id": "POT-1001",
+      "status": "In Progress",
+      "note": "Cold-mix asphalt patch team dispatched; cordoned off",
+      "created_at": "2026-09-28T05:58:02.783Z"
+    },
+    {
+      "id": "0b3a01fe-c951-4e95-a29c-ebab5fcb8435",
+      "complaint_id": "POT-1002",
+      "status": "Reported",
+      "note": "Open storm manhole reported near evening peak hours",
+      "created_at": "2026-09-26T09:58:02.783Z"
+    },
+    {
+      "id": "fc935ea4-8fb6-4fce-9347-b58a157b7175",
+      "complaint_id": "POT-1002",
+      "status": "Verified",
+      "note": "Critical risk confirmed by area inspector; barricades placed",
+      "created_at": "2026-09-26T21:58:02.783Z"
+    },
+    {
+      "id": "27d9e96e-b10f-48f1-9885-9a67c245b8a7",
+      "complaint_id": "POT-1002",
+      "status": "Assigned",
+      "note": "Assigned to Drainage & Stormwater Works for replacement cast-iron cover",
+      "created_at": "2026-09-27T09:58:02.783Z"
+    },
+    {
+      "id": "43ef67c2-3093-4aa4-96bd-8a9978e126e6",
+      "complaint_id": "POT-1003",
+      "status": "Reported",
+      "note": "Asphalt subsidence reported on 100ft road",
+      "created_at": "2026-09-27T09:58:02.783Z"
+    },
+    {
+      "id": "d254b42d-e9b5-41bc-a7fe-fe82756bd862",
+      "complaint_id": "POT-1003",
+      "status": "Verified",
+      "note": "Road safety inspector confirmed high vibration and lane swerving risk",
+      "created_at": "2026-09-27T21:58:02.783Z"
+    },
+    {
+      "id": "f54fdac9-331a-43b0-9801-fe30801bf7ae",
+      "complaint_id": "POT-1004",
+      "status": "Reported",
+      "note": "Citizen report logged with mobile photo",
+      "created_at": "2026-09-28T03:58:02.783Z"
+    },
+    {
+      "id": "adfa0bbb-633d-4546-8e2b-f1f1d3306e51",
+      "complaint_id": "POT-1005",
+      "status": "Reported",
+      "note": "Citizen report logged with mobile photo",
+      "created_at": "2026-09-27T23:58:02.783Z"
+    },
+    {
+      "id": "c8d15858-c164-45b7-9da0-3ab39a2b06fb",
+      "complaint_id": "POT-1006",
+      "status": "Reported",
+      "note": "Reported by local commuter",
+      "created_at": "2026-09-23T09:58:02.783Z"
+    },
+    {
+      "id": "b6080959-a920-43aa-9090-b15a86526fab",
+      "complaint_id": "POT-1006",
+      "status": "Verified",
+      "note": "Pothole marked on municipal repair roster",
+      "created_at": "2026-09-24T09:58:02.783Z"
+    },
+    {
+      "id": "cdfa6b6d-7097-4bdb-a4d7-1b76ef9610e1",
+      "complaint_id": "POT-1006",
+      "status": "Assigned",
+      "note": "Assigned to Paving contractor",
+      "created_at": "2026-09-25T09:58:02.783Z"
+    },
+    {
+      "id": "78bd179a-58d4-4cf1-bd66-2444e3193180",
+      "complaint_id": "POT-1006",
+      "status": "In Progress",
+      "note": "Milling and resurfacing ongoing",
+      "created_at": "2026-09-26T09:58:02.783Z"
+    },
+    {
+      "id": "0276849e-25bb-43ec-9b45-c5b0b4d30aa0",
+      "complaint_id": "POT-1006",
+      "status": "Resolved",
+      "note": "Pothole patched with asphalt and rolled flat. After-repair proof verified by municipal engineer.",
+      "created_at": "2026-09-27T09:58:02.783Z"
+    },
+    {
+      "id": "fa9d1ff3-900d-476c-8b8f-6e46d3fc5aaf",
+      "complaint_id": "POT-1007",
+      "status": "Reported",
+      "note": "Initial report submitted",
+      "created_at": "2026-09-22T09:58:02.783Z"
+    },
+    {
+      "id": "6b511895-3abe-4507-aa62-0df3c68de327",
+      "complaint_id": "POT-1007",
+      "status": "Resolved",
+      "note": "Initial temporary gravel fill applied",
+      "created_at": "2026-09-26T09:58:02.783Z"
+    },
+    {
+      "id": "ed333af7-a85c-4b59-832c-5438005d1391",
+      "complaint_id": "POT-1007",
+      "status": "Reopened",
+      "note": "Citizen re-verification reported patch washed away after rainstorm. Hazard still exists.",
+      "created_at": "2026-09-28T06:58:02.783Z"
+    },
+    {
+      "id": "00510105-dc54-44e5-8b4c-04b70fed8b54",
+      "complaint_id": "POT-1008",
+      "status": "Reported",
+      "note": "Report submitted by citizen via GroundFix",
+      "created_at": "2026-09-28T09:58:02.810Z"
+    },
+    {
+      "id": "535b8328-110d-4fbc-9492-5ba486a08894",
+      "complaint_id": "POT-1008",
+      "status": "In Progress",
+      "note": "Repair crew assigned with asphalt mix",
+      "created_at": "2026-09-28T09:58:02.812Z"
+    },
+    {
+      "id": "c1591d2b-95bf-4f86-892e-499bbf3ed913",
+      "complaint_id": "POT-1008",
+      "status": "In Progress",
+      "note": "Assigned to department: Road Infrastructure & Paving",
+      "created_at": "2026-09-28T09:58:02.813Z"
+    },
+    {
+      "id": "0f1c71a7-5838-411b-a6e3-d75a5f4b5e9c",
+      "complaint_id": "POT-1008",
+      "status": "Reopened",
+      "note": "Citizen re-verification: Citizen reported hazard still exists after marked resolution.",
+      "created_at": "2026-09-28T09:58:02.814Z"
+    },
+    {
+      "id": "5d3067a2-4354-4d2b-afed-5c5852735230",
+      "complaint_id": "POT-1009",
+      "status": "Reported",
+      "note": "Report submitted by citizen via GroundFix",
+      "created_at": "2026-09-28T10:11:21.668Z"
+    }
+  ],
+  "confirmations": [
+    {
+      "id": "ef08cfcc-8705-40e9-97bf-805f3c23489c",
+      "complaint_id": "POT-1001",
+      "client_identifier": "demo_client_alpha_1",
+      "created_at": "2026-09-26T09:58:02.783Z"
+    },
+    {
+      "id": "f0e12f1d-41bf-4825-95eb-3e047d1fa8ca",
+      "complaint_id": "POT-1001",
+      "client_identifier": "demo_client_alpha_2",
+      "created_at": "2026-09-27T09:58:02.783Z"
+    },
+    {
+      "id": "30c2ee0e-7537-4cf4-a49d-bf07798f7b48",
+      "complaint_id": "POT-1002",
+      "client_identifier": "demo_client_beta_1",
+      "created_at": "2026-09-27T03:58:02.783Z"
+    },
+    {
+      "id": "fae327f9-c2b1-4c70-8ee9-87ddd8358c3a",
+      "complaint_id": "POT-1003",
+      "client_identifier": "demo_client_gamma_1",
+      "created_at": "2026-09-28T01:58:02.783Z"
+    },
+    {
+      "id": "de9673d5-9254-43bd-bc5d-1f938e74f1ff",
+      "complaint_id": "POT-1007",
+      "client_identifier": "demo_client_delta_1",
+      "created_at": "2026-09-28T05:58:02.783Z"
+    },
+    {
+      "id": "7b7fad14-31bb-404b-a9ea-7669b1a2e0ef",
+      "complaint_id": "POT-1008",
+      "client_identifier": "test_client_999",
+      "created_at": "2026-09-28T09:58:02.811Z"
+    }
+  ],
+  "near_miss_reports": [
+    {
+      "id": "8b0f4c40-91f4-4af7-a0a0-6ba637ce3f2a",
+      "complaint_id": "POT-1001",
+      "near_miss_type": "Almost crashed",
+      "details": "Two-wheeler swerved violently into oncoming bus lane to avoid deep hole.",
+      "created_at": "2026-09-26T09:58:02.783Z"
+    },
+    {
+      "id": "aad09da7-e8e2-4774-904f-534e035c5255",
+      "complaint_id": "POT-1001",
+      "near_miss_type": "Vehicle damaged",
+      "details": "Car rim bent and tire burst when hitting crater in rain.",
+      "created_at": "2026-09-27T03:58:02.783Z"
+    },
+    {
+      "id": "5e0e7a1e-cd3b-4519-8e8e-9a3ac221cb5d",
+      "complaint_id": "POT-1001",
+      "near_miss_type": "Almost fell",
+      "details": "Scooter rider lost balance in the wet trench.",
+      "created_at": "2026-09-27T21:58:02.783Z"
+    },
+    {
+      "id": "0da435c0-e05b-40a3-9334-71da999fac30",
+      "complaint_id": "POT-1002",
+      "near_miss_type": "Almost fell",
+      "details": "Pedestrian walking in dark almost stepped into open manhole.",
+      "created_at": "2026-09-26T21:58:02.783Z"
+    },
+    {
+      "id": "0aa036ef-96ea-45ce-8758-52674d238d62",
+      "complaint_id": "POT-1002",
+      "near_miss_type": "Vehicle damaged",
+      "details": "Auto-rickshaw wheel caught inside edge.",
+      "created_at": "2026-09-27T09:58:02.783Z"
+    },
+    {
+      "id": "41ac0c34-2bbc-4b22-98c6-7ffb5e4fe253",
+      "complaint_id": "POT-1003",
+      "near_miss_type": "Traffic obstruction",
+      "details": "Cars braking suddenly from 50km/h creating tailback.",
+      "created_at": "2026-09-27T23:58:02.783Z"
+    },
+    {
+      "id": "b880b6ae-35b5-4b75-86c5-c11429581cea",
+      "complaint_id": "POT-1007",
+      "near_miss_type": "Vehicle damaged",
+      "details": "Suspension hit hard bottom on failed patch.",
+      "created_at": "2026-09-28T07:58:02.783Z"
+    },
+    {
+      "id": "c8eaa2e5-bfb1-445e-91e5-c1e0cec736a5",
+      "complaint_id": "POT-1008",
+      "near_miss_type": "Almost crashed",
+      "details": "Biker swerved into median",
+      "created_at": "2026-09-28T09:58:02.810Z"
+    },
+    {
+      "id": "f77d0290-2d15-41bc-9bb8-573600ded839",
+      "complaint_id": "POT-1008",
+      "near_miss_type": "Vehicle damaged",
+      "details": "Axle hit road edge",
+      "created_at": "2026-09-28T09:58:02.812Z"
+    },
+    {
+      "id": "bfcde8eb-d666-4adb-8657-352f75d22706",
+      "complaint_id": "POT-1009",
+      "near_miss_type": "Almost fell",
+      "details": "",
+      "created_at": "2026-09-28T10:11:21.668Z"
+    }
+  ],
+  "assignments": [
+    {
+      "id": "679c05cd-bf98-48c1-85d1-832b9e6e1e5b",
+      "complaint_id": "POT-1001",
+      "department_id": "d1111111-1111-1111-1111-111111111111",
+      "assigned_at": "2026-09-27T09:58:02.783Z"
+    },
+    {
+      "id": "f89024a1-a043-42ea-a072-1e4eb8bc586c",
+      "complaint_id": "POT-1002",
+      "department_id": "d2222222-2222-2222-2222-222222222222",
+      "assigned_at": "2026-09-27T09:58:02.783Z"
+    },
+    {
+      "id": "3ae4ee6c-7e94-4c15-96ce-8b7ddc014e3f",
+      "complaint_id": "POT-1006",
+      "department_id": "d1111111-1111-1111-1111-111111111111",
+      "assigned_at": "2026-09-25T09:58:02.783Z"
+    },
+    {
+      "id": "d794253d-2273-4b80-81f6-6352bdaeba1d",
+      "complaint_id": "POT-1008",
+      "department_id": "d1111111-1111-1111-1111-111111111111",
+      "assigned_at": "2026-09-28T09:58:02.813Z"
+    }
+  ]
+}
